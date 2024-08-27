@@ -1,5 +1,6 @@
 from substrateinterface.utils.ss58 import ss58_encode
 from eth_keys import keys
+from getpass import getpass  # Import the getpass module
 
 def private_key_to_public_key(private_key_hex):
     # Strip '0x' prefix if present
@@ -41,7 +42,8 @@ def public_key_to_ss58(public_key_bytes, prefix=42):
     return ss58_addr
 
 def main():
-    private_key_hex = input("Enter your private key in hex format: ").strip()
+    # Use getpass to hide the private key input
+    private_key_hex = getpass("Enter your private key in hex format: ").strip()
     
     try:
         public_key_bytes = private_key_to_public_key(private_key_hex)
@@ -55,3 +57,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

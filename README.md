@@ -40,6 +40,8 @@ python3 evm2substrate.py
 
 When prompted, enter your private key in hexadecimal format (with or without the 0x prefix). 
 
+Don't worry, your private key ins't exposed or keylogged in the terminal.
+
 The script will then output the corresponding Ethereum and Substrate addresses.
 
 ## Key Points

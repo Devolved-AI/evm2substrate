@@ -44,7 +44,7 @@ The script will then output the corresponding Ethereum and Substrate addresses.
 
 ## Key Points
 
-- The generated Substrate wallet address will allow you to send and receive funds **only if the Substrate blockchain is EVM compatible.**
+- The generated Substrate wallet address will allow you to send and receive funds **only if the Substrate blockchain is EVM compatible OR the Substrate blockchain use the secp256k1 elliptic hash.**
 - **DO NOT store, send, or receive funds to this generated wallet address if the blockchain supports cryptographic hashes ed25519 or sr25519. You will lose your funds.**
 
 

@@ -75,16 +75,16 @@ To use this script, follow these steps:
 
      **WARNING: DO NOT USE THESE ADDRESSES OR KEYS IN THE EXAMPLE ABOVE IN PRODUCTION!! DO NOT SEND FUNDS TO THESE ADDRESSES FOR ANY REASON!!**
 
-## Conclusion
+## Points To Consider
 
-This script provides a streamlined way to generate and manage keys across Ethereum and Substrate blockchains. While it offers great versatility and security, users should be aware of         its dependencies and the need for further error handling in more complex use cases.
+1. This script provides a streamlined way to generate and manage keys across Ethereum and Substrate blockchains. While it offers great versatility and security, users should be aware of         its dependencies and the need for further error handling in more complex use cases.
 
-You can add the generated Ethereum wallet address to your wallet by importing an account and using the private key provided in your output.
+2. You can add the generated Ethereum wallet address to your wallet by importing an account and using the private key provided in your output.
 
-You can add the generated Substrate wallet address to your Polkadot/Kusama/Substrate wallet by importing an account and specifying the **24-word mnemonic** provided in the output.
+3. You can add the generated Substrate wallet address to your Polkadot/Kusama/Substrate wallet by importing an account and specifying the **24-word mnemonic** provided in the output.
 
-Please check your wallets to see if the generated accounts imported to your wallet successfully. If so, you can safely send, receive, and transfer funds to and from these wallets on their respective networks.
+4. Please check your wallets to see if the generated accounts imported to your wallet successfully. If so, you can safely send, receive, and transfer funds to and from these wallets on their respective networks.
 
-**AS ALWAYS, DO NOT GIVE OUT YOUR PRIVATE KEY OR MNEMONIC PHRASE TO ANYONE!!**
+5. **AS ALWAYS, DO NOT GIVE OUT YOUR PRIVATE KEY OR MNEMONIC PHRASE TO ANYONE!!**
 
 
